@@ -1,0 +1,91 @@
+// ========================================
+// COLORS
+// ========================================
+
+// Brand
+$color-primary: #2563eb;
+$color-primary-hover: #1d4ed8;
+
+// Backgrounds
+$color-background: #f8fafc;
+$color-surface: #ffffff;
+
+// Text
+$color-text-primary: #0f172a;
+$color-text-secondary: #64748b;
+$color-text-placeholder: #94a3b8;
+
+// Borders
+$color-border: #cbd5e1;
+
+// States
+$color-success: #22c55e;
+$color-warning: #f59e0b;
+$color-error: #ef4444;
+
+
+// ========================================
+// TYPOGRAPHY
+// ========================================
+
+$font-family-base:
+Inter,
+system-ui,
+sans-serif;
+
+$font-size-xs: 12px;
+$font-size-sm: 14px;
+$font-size-md: 16px;
+$font-size-lg: 18px;
+$font-size-xl: 24px;
+$font-size-2xl: 32px;
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+
+// ========================================
+// SPACING
+// ========================================
+
+$space-1: 4px;
+$space-2: 8px;
+$space-3: 12px;
+$space-4: 16px;
+$space-5: 20px;
+$space-6: 24px;
+$space-8: 32px;
+$space-10: 40px;
+$space-12: 48px;
+
+
+// ========================================
+// BORDER RADIUS
+// ========================================
+
+$radius-sm: 6px;
+$radius-md: 10px;
+$radius-lg: 14px;
+$radius-xl: 20px;
+$radius-full: 9999px;
+
+
+// ========================================
+// SHADOWS
+// ========================================
+
+$shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.05);
+
+$shadow-md: 0 12px 30px rgba(15, 23, 42, 0.08);
+
+
+
+// ========================================
+// TRANSITIONS
+// ========================================
+
+$transition-fast: 0.2s ease;
+
+$transition-normal: 0.3s ease;
