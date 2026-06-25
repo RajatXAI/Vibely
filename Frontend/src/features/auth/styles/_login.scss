@@ -56,10 +56,39 @@
   }
 
   &__field {
-    display: flex;
-    flex-direction: column;
+    label {
+      font-size: $font-size-sm;
 
-    gap: $space-2;
+      font-weight: $font-weight-medium;
+
+      color: $color-text-primary;
+    }
+
+    input {
+      width: 100%;
+
+      padding: $space-3 $space-4;
+
+      border: 1px solid $color-border;
+
+      border-radius: $radius-md;
+
+      background: $color-surface;
+
+      transition:
+        border-color $transition-fast,
+        box-shadow $transition-fast;
+    }
+
+    input::placeholder {
+      color: $color-text-placeholder;
+    }
+
+    input:focus {
+      border-color: $color-primary;
+
+      box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+    }
   }
 
   &__forgot-password {
