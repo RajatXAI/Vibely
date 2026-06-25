@@ -1,0 +1,55 @@
+@use '../../../shared/styles/abstracts/' as *;
+
+.login {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: $space-5;
+
+  &__container {
+    width: 100%;
+    max-width: 420px;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__header {
+    margin-bottom: $space-8;
+  }
+
+  &__logo {
+    text-align: center;
+  }
+
+  &__subtitle {
+    text-align: center;
+
+    margin-top: $space-2;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+
+    gap: $space-4;
+  }
+
+  &__field {
+    display: flex;
+    flex-direction: column;
+
+    gap: $space-2;
+  }
+
+  &__forgot-password {
+    margin-top: $space-4;
+  }
+
+  &__footer {
+    margin-top: $space-6;
+  }
+}
